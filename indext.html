@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PPT</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos/estilos.css">
+    </head>
+    <body>
+      <header class="header">
+        <div class="headers-div">
+          <div>
+                <img src="Images/batman_logo.png">
+          </div>
+          <div>
+            <h1>Piedra Papel ó Tijera</h1>
+          </div>
+          <div>
+            <img src="Images/batman_logo.png">
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="selcciones">
+          <div class="section-user">
+            <h1>Usuario 1</h1>
+            <div class="seccion-unida">
+                <div class="section-user1-bati-muestra">
+                  <input id="piedra_jugador1" type=image src="Images/batman/bati_piedra.png" onclick="iniciarJuego('piedra','1')">
+                </div>
+                <div class="section-user1-bati-muestra">
+                  <input type=image src="Images/batman/bati_papel.png" onclick="iniciarJuego('papel','1')">
+                </div>
+            </div>
+            <div class="section-user1-bati-muestra">
+              <input type=image src="Images/batman/bati_tijeras.png" onclick="iniciarJuego('tijera','1')">
+            </div>
+            </div>
+
+            <div class="section-user-3">
+              <img src="Images/VS.png">
+            </div>
+
+            <div class ="section-user">
+              <h1>Usuario 2</h1>
+              <div class="seccion-unida">
+                <div class="section-user1-bati-muestra">
+                  <input class="guason-imagen" type=image src="Images/guason/guason_piedra.png" onclick="terminarJuego('piedra')">
+                  </div>
+                  <div class="section-user1-bati-muestra">
+                    <input type=image src="Images/guason/guason_papel.jpg" onclick="terminarJuego('papel')">
+                  </div>
+              </div>
+              <div class="section-user1-bati-muestra">
+                <input type=image src="Images/guason/guason_tijera.png" onclick="terminarJuego('tijera')">
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <footer class="footer">
+        <div>
+          Creado por Mijael.
+        </div>
+      </footer>
+
+      <script src="js/funciones.js"></script>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+:root {
+    --header-height: 15vh;
+    --colorfondo: black;
+}
+
+@font-face {
+    font-family: batiFuente;
+    src: url('../fuente/batmfa.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid lightblue;*/
+    background-color: var(--colorfondo);
+}
+
+.header {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: var(--colorfondo);
+}
+
+.header-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headers-div div {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headers-div h1 {
+    font-family: batiFuente;
+    font-size: 25px;
+    width: 400px; 
+    vertical-align: middle;
+    color: white;
+}
+
+.headers-div img {
+    width: 200px; 
+    height: 100px;
+    vertical-align: middle;
+}
+
+.selcciones {
+    font-family: batiFuente;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.section-user {
+    background-color: var(--colorfondo);
+    box-sizing: border-box;
+    display: inline-block;
+    height: calc(100vh - (var(--header-height)* 2 ));
+    overflow: none;
+    vertical-align: top;
+    width: 40vw;
+    color: white;
+    text-align: center;
+  }
+
+.seccion-unida {
+    width: 100%;
+    padding-top: 20px;
+}
+.seccion-unida div {
+    display: inline;
+    padding: 40px;
+}
+.section-user-3 {
+    background-color: var(--colorfondo);
+    box-sizing: border-box;
+    display: inline-block;
+    height: calc(100vh - (var(--header-height)* 2 ));
+    overflow: auto;
+    vertical-align: top;
+    width: 10vw;
+    color: white;
+    text-align: center;
+  }
+
+.section-user-3 img {
+    padding-top: 90%;
+    width: 98%;
+    height: 30%;
+}
+
+.section-user1-bati-muestra {
+    padding-top: 20px;
+}
+.section-user1-bati-muestra input {
+    width: 180px;
+}
+
+.footer {
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 12px;
+    font-family: batiFuente;
+    padding: 10px 27px;
+    color: white;
+    position: fixed;
+    
+}
